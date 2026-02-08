@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springboot3-demo
+  # 高版本SpringBoot推荐使用application.yml，不再推荐使用bootstrap.yml
+  config:
+    import:
+      - nacos:springboot3-demo
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.0.153:8848
+        group: DEFAULT_GROUP
+        namespace: e646ceb5-2946-49cb-b950-3aa5a83e3dca
