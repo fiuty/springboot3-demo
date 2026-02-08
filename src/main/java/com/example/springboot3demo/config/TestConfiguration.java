@@ -10,6 +10,9 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class TestConfiguration {
+    /**
+     * nacos配置中心取
+     */
     @Value("${test}")
     private String test;
 }
